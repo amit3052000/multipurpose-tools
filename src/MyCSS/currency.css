@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto Mono', monospace;
+
+}
+.table{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.table-container{
+    display: flex;
+    height: 100%;
+    width: 100vw;
+    justify-content: center;
+}
+.table-heading{
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+    position: absolute;
+    top: 15%;
+    align-self: center;
+    text-align: center;
+}
+.grid-template{   
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    padding: 30px;
+    width: 30vw;
+    height: 30vh;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 200px;
+    
+}
+.grid-block1, .grid-block2{
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.grid-block3{
+    display: grid;
+    padding: 10px 0px;
+    grid-template-columns: auto auto auto;
+    
+    justify-content: center;
+}
+.grid-item2 select, .grid-item4 select{
+    width:100px;
+}
+.grid-item8{
+    margin-top: 50px;
+    padding: 5px;
+    grid-column: span 3 /1;
+    width: 100px;
+    justify-self: center;
+}
