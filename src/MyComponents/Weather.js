@@ -4,7 +4,7 @@ import '../MyCSS/weather.css';
 
 
 
-var requestURL = 'http://api.openweathermap.org/geo/1.0/direct?q=Delhi&limit=5&appid=5f89825622872ad6fafb44572bebf3c4';
+var requestURL = 'http://api.openweathermap.org/geo/1.0/direct?q=Delhi&limit=5&appid=<your api here>';
 var request = new XMLHttpRequest();
 console.log(request)
 request.open('GET', requestURL);
